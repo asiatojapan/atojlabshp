@@ -1,1 +1,2 @@
-An opinionated starter for using Gatsby v2 with React Context, tag-agnostic styled-components, page transitions and scroll events with IntersectionObserver.
+ At AtoJ India Labs, we are passionate about making the best product. Coupled with our Japanese language capabilities, we offer you the best of India and Japan. 
+    
