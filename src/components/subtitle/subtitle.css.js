@@ -53,6 +53,6 @@ export const Text = styled.span`
 `;
 
 export const Container = styled.div`
-  padding: 2rem 6rem;
-  max-width: 50vw;
+  padding: 10rem 0rem;
+  max-width: 600px;
 `;

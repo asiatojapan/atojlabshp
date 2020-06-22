@@ -5,6 +5,7 @@ import posed from 'react-pose';
 import { Container } from './header.css';
 import Title from 'components/title';
 import Nav from 'components/header/nav';
+import Logo from "images/AtoJ-_black.png"
 
 // Example of a component-specific page transition
 const AnimatedContainer = posed.div({
@@ -25,10 +26,12 @@ const AnimatedContainer = posed.div({
 const Header = ({ title }) => (
   <AnimatedContainer>
     <Container>
+    <div style={{display: "flex"}}> 
       <Link to="/">
-        <Title as="h1">{title}</Title>
+      <img src={Logo} alt="Logo" height="40px" />
+        <Title>{title}</Title>
       </Link>
-
+      </div> 
       <Nav />
     </Container>
   </AnimatedContainer>

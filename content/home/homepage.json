@@ -3,9 +3,9 @@
   "content": "intro.md",
   "content_two": "intro_two.md",
   "gallery": [{
-    "title": "React Context",
+    "title": "ASIA to JAPAN (Tokyo)",
     "copy": "For global styles.",
-    "image": "../images/gallery/react-context.jpg"
+    "image": "../images/gallery/atojlabs-2.png"
   },
   {
     "title": "Page Transitions",

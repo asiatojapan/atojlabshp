@@ -16,26 +16,25 @@ const Index = ({ data }) => (
     </Box>
     <div style={{ height: '10vh' }} />
     <Gallery items={data.homeJson.gallery} />
+   
     <div style={{ height: '10vh' }} />
+    <Box size="full">
+    <Title as="h1" size="large">
+    Closely working with Japan, we have adapted their professional work ethics of making sure everything is done on time and of high quality. 
+    Going by the country’s KAIZEN spirit, we are not afraid to try our hands at something new and different in order to achieve optimum results for a project.
     <Subtitle>
     <div dangerouslySetInnerHTML={{__html: data.homeJson.content_two.childMarkdownRemark.html}}/>
     </Subtitle>
-    <div style={{ height: '30vh' }} />
-    <Box size="full">
-    <Title as="h1" size="large">
-    <div style={{textAlign: "center", padding: "10rem"}}>
-    Closely working with Japan, we have adapted their professional work ethics of making sure everything is done on time and of high quality. 
-    Going by the country’s KAIZEN spirit, we are not afraid to try our hands at something new and different in order to achieve optimum results for a project.
-    </div>
     </Title>
     </Box>
-    <div style={{ height: '30vh' }} />
+    <hr/>
+    <div style={{ height: '10vh' }} />
      <Box size="full">
-     <div style={{padding: "10rem"}}>
      <div style={{fontSize: "3.3rem", marginBottom: "2rem"}}> Careers </div>
        <div dangerouslySetInnerHTML={{__html: data.careerJson.content.childMarkdownRemark.html}}/>
-       </div>
+
     </Box>
+    <div style={{ height: '10vh' }} />
   </Layout>
 );
 

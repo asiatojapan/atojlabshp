@@ -4,11 +4,11 @@ module.exports = {
   siteTitle: `AtoJ Labs`,
   siteTitleShort: `AtoJ Labs`,
   siteDescription: `AtoJ Labs`,
-  siteUrl: `http://atojlabs.com`,
+  siteUrl: `http://www.atojlabs.com`,
   themeColor: `#000`,
   backgroundColor: `#fff`,
   pathPrefix: null,
-  logo: path.resolve(__dirname, 'src/images/icon.png'),
+  logo: path.resolve(__dirname, 'src/images/AtoJ-_black.png'),
   social: {
     twitter: `gatsbyjs`,
     fbAppId: `966242223397117`,
