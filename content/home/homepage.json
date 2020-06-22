@@ -2,19 +2,23 @@
   "title": "Home",
   "content": "intro.md",
   "content_two": "intro_two.md",
+  "gallery_two": [{
+    "title": "Japan",
+    "copy": "",
+    "image": "../images/gallery/india_programmer.png"
+  }, 
+  {"title": "Japan",
+  "copy": "",
+  "image": "../images/gallery/india_programmer.png"
+}],
   "gallery": [{
-    "title": "ASIA to JAPAN (Tokyo)",
-    "copy": "For global styles.",
-    "image": "../images/gallery/atojlabs-2.png"
+    "title": "Japan",
+    "copy": "",
+    "image": "../images/gallery/japan_1.png"
   },
   {
-    "title": "Page Transitions",
-    "copy": "Component-based for easy usage.",
-    "image": "../images/gallery/page-transitions.jpg"
-  },
-  {
-    "title": "Intersection Observer",
-    "copy": "Including a polyfill for Safari.",
-    "image": "../images/gallery/intersection-observer.jpg"
+    "title": "India",
+    "copy": "",
+    "image": "../images/gallery/india_1.png"
   }]
 }

@@ -6,6 +6,7 @@ import Title from 'components/title';
 import Subtitle from 'components/subtitle';
 import Gallery from 'components/gallery';
 import { graphql } from 'gatsby';
+import Img from 'gatsby-image';
 
 const Index = ({ data }) => (
   <Layout>
@@ -24,7 +25,8 @@ const Index = ({ data }) => (
     Going by the country’s KAIZEN spirit, we are not afraid to try our hands at something new and different in order to achieve optimum results for a project.
     <Subtitle>
     <div dangerouslySetInnerHTML={{__html: data.homeJson.content_two.childMarkdownRemark.html}}/>
-    </Subtitle>
+    <Img fluid={data.homeJson.gallery_two[0].image ? data.homeJson.gallery_two[0].image.childImageSharp.fluid : {}}/>
+   </Subtitle>
     </Title>
     </Box>
     <hr/>
@@ -58,6 +60,16 @@ export const query = graphql`
         childMarkdownRemark {
           html
           rawMarkdownBody
+        }
+      }
+      gallery_two {
+        image {
+          id
+          childImageSharp {
+            fluid(maxHeight: 500, quality: 90) {
+              ...GatsbyImageSharpFluid_withWebp
+            }
+          }
         }
       }
       gallery {

@@ -53,6 +53,13 @@ export const Text = styled.span`
 `;
 
 export const Container = styled.div`
+  display: grid;
   padding: 10rem 0rem;
-  max-width: 600px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 4rem;
+  margin: 2rem 0;
+
+  ${MEDIA.TABLET`
+    display: block;
+  `};
 `;
