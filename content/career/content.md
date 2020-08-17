@@ -1,8 +1,8 @@
 ### We are looking for a senior Ruby on Rails developer (at least 2 years experience) who can get things done, take ownership of features, and come up with scalable solutions to challenging problems.
 
 Requirements
-+ Someone who can work remotely with a team based in Japan.  
-+ Work hours and work location can be negotiated.
++ Someone who can work remotely with a team based in Japan 
++ Work hours and work location can be negotiated
 + Ruby on Rails
 + JavaScript
 + HTML/CSS
