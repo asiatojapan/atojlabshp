@@ -4,7 +4,7 @@ module.exports = {
   siteTitle: `AtoJ Labs`,
   siteTitleShort: `AtoJ Labs`,
   siteDescription: `AtoJ Labs`,
-  siteUrl: `http://www.atojlabs.com`,
+  siteUrl: `https://www.atojlabs.com`,
   themeColor: `#000`,
   backgroundColor: `#fff`,
   pathPrefix: null,
